@@ -1,0 +1,14 @@
+.progressBar {
+                width: 100%;
+                height: 20px;
+                border: 1px solid black;
+                overflow:hidden;  /* ezzel marad a keret-tartományon belül */
+}
+
+.progressBar div {
+                width: 50%;
+                /* ez határozza meg, h hol áll a csúszkán az érték... 
+                             jelenleg a közepétől indul*/
+                background-color: rgb(255, 197, 197);
+                transition:1s; /* késlelteti a csíkot*/
+}
